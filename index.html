@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- <link rel="shortcut icon" type="png" href="favicon.png"> -->
+	<title>LearnEd</title>
+	<meta name="desciption" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+	<script>
+		$(window).on('scroll', function(){
+  			if($(window).scrollTop()){
+  			  $('nav').addClass('black');
+ 			 }else {
+ 		   $('nav').removeClass('black');
+ 		 }
+		})
+	</script>
+</head>
+<body>
+<!-- Navigation Bar -->
+	<header class="backimg" id="header">
+		<nav>
+			<div class="logo"><img src="logo 2.png" alt="logo"></div>
+			<ul>
+				<li><a class="active" href="">Home</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+			</ul>
+			<div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="search.png" alt="search" onclick=slide()></div>
+			<a class="get-started" href="login.html">Get Started</a>
+			<img src="menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+		</nav>
+		<div class="head-container">
+			<div class="quote">
+				<p>The beautiful thing about learning is that nobody can take it away from you.</p>
+				<h5>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</h5>
+				<div class="play">
+					<img src="play.png" alt="play"><span>Watch Now</span>
+				</div>
+			</div>
+			<div class="svg-image">
+				<img src="image.png" alt="svg">
+			</div>
+		</div>
+		<div class="side-menu" id="side-menu">
+			<div class="close" onclick="sideMenu(1)"><img src="close.png" alt=""></div>
+			<div class="user">
+				<img src="bhawnaimg.jpeg" alt="Username">
+				<p>bhawnac309</p>
+			</div>
+			<ul>
+				<li><a href="#about_section">About</a></li>
+				<li><a href="#portfolio_section">Portfolio</a></li>
+				<li><a href="#team_section">Team</a></li>
+				<li><a href="#services_section">Services</a></li>
+				<li><a href="#contactus_section">Contact</a></li>
+				<li><a href="#feedBACK">Feedback</a></li>
+			</ul>
+		</div>
+	</header>
+	<div class="title">
+		<p style="font-size: 50px; color: #ca004a;text-align: center;font-weight: 700;
+		font-family:Georgia, 'Times New Roman', Times, serif">Courses You will Learn</p>
+			</div>
+	<br><br>
+	<div class="course">
+		<div class="cbox">
+		<div class="det"><a href="https://www.mindluster.com/certificate/40/Python-programming-languag"><img src="book.png" alt="">Python</a></div>
+		<div class="det"><a href="#"><img src="d1.png">Java</a></div>
+		<div class="det"><a href="https://www.mindluster.com/lesson/13845"><img src="paper.png">English Learning</a></div>
+		<div class="det"><a href="#"><img src="d1.png">Daily Quiz</a></div>
+		</div>
+		<div class="cbox">
+			<div class="det"><a href="https://www.mindluster.com/certificate/40/Python-programming-languag"><img src="book.png" alt="">Python</a></div>
+			<div class="det"><a href="#"><img src="d1.png">Java</a></div>
+			<div class="det"><a href="https://www.mindluster.com/lesson/13845"><img src="paper.png">English Learning</a></div>
+			<div class="det"><a href="#"><img src="d1.png">Daily Quiz</a></div>
+			</div>
+			<div class="cbox">
+				<div class="det"><a href="https://www.mindluster.com/certificate/40/Python-programming-languag"><img src="book.png" alt="">Python</a></div>
+				<div class="det"><a href="#"><img src="d1.png">Java</a></div>
+				<div class="det"><a href="https://www.mindluster.com/lesson/13845"><img src="paper.png">English Learning</a></div>
+				<div class="det"><a href="#"><img src="d1.png">Daily Quiz</a></div>
+				</div>
+		<div class="cbox">
+		<div class="det"><a href="#"><img src="computer.png">Web-Designing</a></div>
+		<div class="det"><a href="#"><img src="data.png">Data Structures</a></div>
+		<div class="det"><a href="https://www.mindluster.com/certificate/8687/MS-Excel"><img src="algo.png">Advance MS-Excel</a></div>
+		<div class="det det-last"><a href="https://www.mindluster.com/certificate/2314/Digital-Marketing"><img src="projects.png">Digital-Marketing</a></div>
+		</div>
+	</div>
+	
+<!-- ABOUT -->
+	<div class="diffSection" id="about_section">
+		<p style="font-size: 50px;padding: 100px;  color: #ca004a;text-align: center;font-weight: 700;
+		font-family:Georgia, 'Times New Roman', Times, serif">ABOUT</p>
+		<div class="about-content">
+				<div class="side-image">
+					<img class="sideImage" src="elearning.avif">
+				</div>
+				<div class="side-text">
+					<h2>What you think about us ?</h2>
+					<p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research.<br> Educational website can include websites that have games, videos or topic related resources that act as tools to enhance learning and supplement classroom teaching. These websites help make the process of learning entertaining and attractive to the student, especially in today's age. <br>Using HTML(HyperText Markup Language), CSS(Cascading Style Sheet), JavaScript, we can make learning more easier and in a interesting way.</p>
+				</div>
+		</div>
+	</div>
+
+
+<!-- PORTFOLIO -->
+	<div class="diffSection" id="portfolio_section">
+        <p style="font-size: 50px;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-align: center; padding: 100px;font-weight: 700;">PORTFOLIO</p>
+        		<div class="content">
+			<p>
+				“Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+			</p>
+		</div>
+	</div>
+	<div class="extra">
+		<p>We're increasing this data every year</p>
+		<div class="smbox">
+		<span>
+			 <div id="counter" class="data">154</div>
+		     <div class="det">Enrolled Students</div>
+	    </span>
+		<span><div id="counter2" class="data">62</div><div class="det">Total Courses</div></span>
+		<span><div id="counter3" class="data">56</div><div class="det">Placed Students</div></span>
+		<span><div id="counter4" class="data">27</div><div class="det">Total Projects</div></span>
+		</div>
+	</div>
+
+
+<!-- TEAM -->
+	<div class="diffSection" id="team_section">
+		<p style="font-size: 50px;padding: 100px; color: #000000;text-align: center;font-weight: 700;
+		font-family:Georgia, 'Times New Roman', Times, serif">We're The Creater</p>
+
+        <div class="totalcard">
+			<div class="card">
+				<img src="bhawnaimg.jpeg">
+				<div class="card-title">Bhawna Chauhan</div>
+				<div id="detail">
+					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+					<div class="duty"></div>
+					<a href="#"><button class="btn-bhawna">Follow +</button></a>
+				</div>
+			
+			</div>
+			<div class="card">
+				<img src="bhawnaimg.jpeg">
+				<div class="card-title">Rakshita Nathavat</div>
+				<div id="detail">
+					<p>“ Real education should consist of drawing the goodness and the best out of our own students. What better books can there be than the book of humanity “</p>
+					<div class="duty"></div>
+					<a href="#"><button class="btn-bhawna2">Follow +</button></a>
+				</div>
+				
+			</div>
+            <div class="card">
+				<img src="bhawnaimg.jpeg">
+				<div class="card-title">Bhawna Chauhan</div>
+				<div id="detail">
+					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+					<div class="duty"></div>
+					<a href="#"><button class="btn-bhawna3">Follow +</button></a>
+				</div>
+			
+			</div>
+            <div class="card">
+                
+                <img src="bhawnaimg.jpeg">
+				<div class="card-title">Bhawna Chauhan</div>
+				<div id="detail">
+					<p>“ You can teach a student a lesson for a day; but if you can teach him to learn by creating curiosity, he will continue the learning process as long as he lives “</p>
+					<div class="duty"></div>
+					<a href="#"><button class="btn-bhawna4">Follow +</button></a>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+
+
+<!-- SERVICES -->
+	<div class="service-swipe">
+		<div class="diffSection" id="services_section">
+		<p style="font-size: 50px;padding: 10px; color: #000000;text-align: center;font-weight: 700;
+		font-family:Georgia, 'Times New Roman', Times, serif">Services</p>
+		</div>
+		<a href="subjects/computer_courses.html"><div class="s-card"><img src="computer-courses.png"><p>Free Online Computer Courses</p></div></a>
+		<a href="subjects/jee.html"><div class="s-card"><img src="brainbooster.png"><p>Building Concepts for Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="online-tutorials.png"><p>Online Video Lectures</p></div></a>
+		<a href="subjects/jee.html#sample_papers"><div class="s-card"><img src="papers.jpg"><p>Sample Papers of Various Competitive Exams</p></div></a>
+		<a href="#"><div class="s-card"><img src="p3.png"><p>Performance and Ranking Report</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="discussion.png"><p>Discussion with Our Tutors & Mentors</p></div></a>
+		<a href="subjects/quiz.html"><div class="s-card"><img src="q1.png"><p>Daily Brain Teasing Questions to Improve IQ</p></div></a>
+		<a href="#contactus_section"><div class="s-card"><img src="help.png"><p>24x7 Online Support</p></div></a>
+	</div>
+
+<!-- Reviews by Students -->
+<div id="makeitfull">
+	<a href="#review_section"><img src="makeitfull.png"></a>
+</div>
+<div class="review">
+	<div class="diffSection" id="review_section">
+	<p style="font-size: 50px; padding: 100px; padding-bottom: 40px; color: #ffffff;margin-left: 20%;">What the Students Say About Us?</p>
+	</div>
+	<div class="rev-container">
+		<div class="rev-card">
+			<div class="identity">
+				<img src="bhawnaimg.jpeg"><p>Harshita Mathur</p>
+				<h6>Java</h6>
+				<div class="rating"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					I did Java Fundamenetal course with Rishab Sir. It was a great experience. The brain teasers and assignments, actually the whole lot of content was really good. Some problems were challenging yet interesting. Was explained very well where ever I stuck...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="bhawnaimg.jpeg"><p>Vedika Mathur</p>
+				<h6>C/C++</h6>
+				<div class="rating"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					When I was watching "Dear Zindagi", I could relate Sharukh Khan to Arnav Bhaiya. The way Sharukh Khan was giving life lessons to Alia Bhatt, in the same way Arnav Bhaiya will give coding life lessons which will guide you throughout your code life...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="bhawnaimg.jpeg"><p>Radhika Sharma</p>
+				<h6>Web-Designing</h6>
+				<div class="rating"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					LearnEd was an amazing experience for me. I belong to electronics department and had a little experience in coding but I think it has helped me think things through in a much more analytical manner. Coding is important no matter which branch you are in. It gives you a better understanding about how to approach a problem...
+				</p>
+			</div>
+		</div>
+		<div class="rev-card">
+			<div class="identity">
+				<img src="bhawnaimg.jpeg"><p>Eshita Verma</p>
+				<h6>Python</h6>
+				<div class="rating"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"><img src="star.png"></div>
+			</div>
+			<div class="rev-cont">
+				<p id="title">Review:</p>
+				<p id="content">
+					This was my first complete course at coding blocks. I attended the Python course in Winter 2020 and loved it which made me join the full course. Shubham bhaiya and Ayush Bhaiya(TA) have good knowledge about the field and were very helpful in making us understand the concepts. I would certainly recommend this to anyone...
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- CONTACT US -->
+	<div class="diffSection" id="contactus_section">
+		<p style="font-size: 50px;padding: 100px; color: #000000;text-align: center;font-weight: 700;
+		font-family:Georgia, 'Times New Roman', Times, serif">Contact Us</p>	
+			<div class="csec"></div>
+		<div class="back-contact">
+			<div class="cc">
+			<form >
+				<label>First Name <span class="imp">*</span></label><label style="margin-left: 185px">Last Name <span class="imp">*</span></label><br>
+			
+				<input type="text" name="" style="margin-right: 10px; width: 175px" required="required"><input type="text" name="lname" style="width: 175px" required="required"><br>
+				
+				<label>Email <span class="imp">*</span></label><br>
+				<input type="email" name="mail" style="width: 100%" required="required"><br>
+				<label>Message <span class="imp">*</span></label><br>
+				<input type="text" name="message" style="width: 100%" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+<!-- FEEDBACK -->
+	<div class="title2" id="feedBACK">
+		<span>Give Feedback</span>
+		<div class="shortdesc2">
+			<p>Please share your valuable feedback to us</p>
+		</div>
+	</div>
+
+	<div class="feedbox">
+		<div class="feed">
+			<form>
+				<label>Your Name</label><br>
+				<input type="text" name="" class="fname" required="required"><br>
+				<label>Email</label><br>
+				<input type="email" name="mail" required="required"><br>
+				<label>Additional Details</label><br>
+				<textarea name="addtional"></textarea><br>
+				<button type="submit" id="csubmit">Send Message</button>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<div class="footer-container">
+			<div class="left-col">
+				<img src="logo - Copy.png" style="width: 200px;">
+				<div class="logo"></div>
+				<div class="social-media">
+					<a href="#"><img src="fb.png"></a>
+					<a href="#"><img src="insta.png"></a>
+					<a href="#"><img src="tt.png"></a>
+					<a href="#"><img src="ytube.png"></a>
+					<a href="#"><img src="linkedin.png"></a>
+				</div><br><br>
+				<p class="rights-text">Copyright © 2024 Created By Bhawna Chauhan...</p>
+				<br><p><img src="location.png" alt="">Kanoria PG Mahila Mahavidyalaya<br>Jaipur, Rajasthan-302017</p><br>
+				<p><img src="phone.png"> +91-7073458911 <br><img src="mail.png">&nbsp; bhawnac309@gmail.com</p>
+			</div>
+			
+			<div class="right-col">
+				<h1 style="color: #fff">Our Newsletter</h1>
+				<div class="border"></div><br>
+				<p>Enter Your Email to get our News and updates.</p>
+				<form class="newsletter-form">
+					<input class="txtb" type="email" placeholder="Enter Your Email">
+					<input class="btn" type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
